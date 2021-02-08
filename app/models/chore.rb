@@ -8,6 +8,7 @@ class Chore < ApplicationRecord
 
     # Scopes
     scope :by_task, -> { joins(:task).order('name') }
+    scope :chronological, -> { order ('due_on, completed') }
     
 
 end
