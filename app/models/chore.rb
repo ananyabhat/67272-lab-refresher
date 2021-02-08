@@ -6,4 +6,8 @@ class Chore < ApplicationRecord
     # Validations
     validates_date :due_on
 
+    # Scopes
+    scope :by_task, -> { joins(:task).order('name') }
+    
+
 end
