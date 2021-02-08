@@ -63,34 +63,6 @@
         1,
         null
       ],
-      "/Users/ananyabhat/Desktop/spring21/67373/lab5-choretracker-starter/app/models/chore.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        2,
-        1,
-        1,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null,
-        null
-      ],
       "/Users/ananyabhat/Desktop/spring21/67373/lab5-choretracker-starter/app/models/task.rb": [
         1,
         null,
@@ -103,8 +75,36 @@
         1,
         null,
         null,
+        3,
+        2,
+        null,
+        null
+      ],
+      "/Users/ananyabhat/Desktop/spring21/67373/lab5-choretracker-starter/app/models/chore.rb": [
+        1,
+        null,
         1,
         1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
         null,
         null
       ],
@@ -360,6 +360,6 @@
         0
       ]
     },
-    "timestamp": 1612750909
+    "timestamp": 1612751193
   }
 }
