@@ -32,6 +32,10 @@ class ChildTest < ActiveSupport::TestCase
     should "have a scope to select only active children" do
       assert_equal ["Alex", "Mark"], Child.active.alphabetical.map{|c| c.first_name}
     end
+
+    should "have points_earned method that returns the points a child has earned for completed chores" do
+      assert_equal 4, @alex.points_earned
+    end
   end
  
 
