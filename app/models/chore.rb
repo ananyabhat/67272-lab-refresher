@@ -14,5 +14,13 @@ class Chore < ApplicationRecord
     scope :upcoming, -> {where('due_on >= ?', Date.current)}
     scope :past, -> { where('due_on < ?', Date.current)}
 
+    # Methods
+    def status
+        if completed
+            "Completed"
+        else
+            "Pending"
+        end
+    end
 
 end
